@@ -1,0 +1,30 @@
+.homeScreenWrapper{
+    width:100%;
+    /* border: 5px solid black; */
+
+}
+
+/* .navbarWrapper{
+    border: 5px solid black;
+} */
+.navbar{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.logoutButtonHome{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5pc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.listOfSteps{
+    list-style-type: none;
+    size: 14px;
+    font-size: 25px;
+}
+
