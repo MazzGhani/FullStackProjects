@@ -1,0 +1,70 @@
+.contact {
+  padding-top: 20px;
+  background-color: #fffbf0;
+}
+
+.contactTitle {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #ffad06;
+  font-size: 50px;
+}
+.contactBgTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.displayLi {
+  display: inline;
+}
+
+.Icons {
+  margin-right: 15pc;
+  transform: scale(1.8);
+  color: #ffad06;
+  border: 3px solid #ffad06;
+  cursor: pointer;
+}
+
+.contactImg {
+  width: 50%;
+  height: 650px;
+  object-fit: cover;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.contactInfoInput {
+  text-align: left;
+  border: none;
+  display: list-item;
+  font-size: 30px;
+  margin: 70px 0 12pc 15px;
+  background-color: #fffbf0;
+}
+.contactInfoInput:focus {
+  outline: none;
+}
+
+.ContactUStext {
+  font-family: "Roboto", sans-serif;
+  float: right;
+  padding-top: 10pc;
+  padding-right: 50px;
+}
+
+.formSize {
+  width: 350px;
+  height: 600px;
+}

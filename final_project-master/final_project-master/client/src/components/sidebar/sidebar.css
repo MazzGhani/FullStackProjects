@@ -1,0 +1,68 @@
+/* the whole sidebar */
+.sidebar {
+  flex: 3;
+  height: fit-content;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* the area that holds the "how you can help" string */
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* TEXT in bold yellow "How you can help", "Just a couple", and "follow us" */
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffad06;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #ffad06;
+}
+/* Distance between the black bar below "How you can help" and the image */
+.sidebarItem > img {
+  margin-top: 1px;
+  max-width: 100%;
+}
+
+/* Distance betwwen the black bar and the FOLLOW US string */
+.sidebarList {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+/* Changes the way the list is listed
+50% makes it so that the valeus are listed in a even manner  */
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: pointer;
+}
+/* Social media icons */
+.sidebarSocial {
+  margin-top: 5px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Icons bellow the FOLLOW US string */
+.sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}

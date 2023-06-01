@@ -1,0 +1,35 @@
+.header {
+  margin-top: 60px;
+  background-color: #fffbf0;
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #ffad06;
+  background-color: #fdfbfb;
+}
+
+.headerTitleSm {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  top: 10%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.headerTitleBg {
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 550px;
+  padding: 0;
+  margin-top: 50px;
+  object-fit: cover;
+  border: 3px solid #ffad06;
+}
